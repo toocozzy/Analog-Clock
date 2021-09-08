@@ -65,3 +65,24 @@ a {
   margin-left: var(--mb-1);
   margin-right: var(--mb-1);
 }
+
+.grid {
+  display: grid;
+}
+
+.clock__container {
+  height: 100vh;
+  grid-template-rows: 1fr max-content;
+}
+
+.clock__circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  box-shadow: -6px -6px 16px var(--white-color),
+    6px 6px 16px rgba(209, 209, 230, 1),
+    inset 6px 6px 16px rgba(209, 209, 230, 1),
+    inset -6px -6px 16px var(--white-color);
+  border-radius: 50%;
+  justify-self: center;
+}
