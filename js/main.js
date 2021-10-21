@@ -65,5 +65,3 @@ const clockText = () => {
 };
 
 setInterval(clockText, 1000);
-
-// show time
